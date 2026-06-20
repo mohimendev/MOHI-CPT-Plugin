@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("../fonts/bootstrap-icons.woff2") format("woff2"),
+       url("../fonts/bootstrap-icons.woff") format("woff");
+}
+.custom-card {
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0 !important;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title a:hover {
+    color: #555 !important;
+}
+
+.content-area {
+    color: #2d3436;
+    line-height: 1.8;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.col-lg-3 aside, 
+.col-lg-3 .widget, 
+.col-lg-3 section {
+    width: 100% !important;
+    margin-bottom: 30px;
+    clear: both;
+}
+
+
+/* Catagory Style */
+.cat-style {
+    border: 1px solid #c5c5c54a;
+    padding: 3px 6px;
+    font-size: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* Tags hover effect */
+.mohi-tag-item:hover {
+    background-color: #f8f9fa !important;
+    border-color: #adb5bd !important;
+    color: #000 !important;
+}
+
+/* Social icons hover */
+.hover-primary:hover { color: #0d6efd !important; }
+.hover-info:hover { color: #0dcaf0 !important; }
+
+
+
+/* Author Box adjust for Mobile */
+@media (max-width: 576px) {
+    .author-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .author-avatar {
+        margin-right: 0 !important;
+        margin-bottom: 15px;
+    }
+}
+
+.project-details-wrap {
+    border-left: 5px solid #212529 !important; /* আপনার থিমের সাথে মিল রেখে */
+}
+.project-details-wrap i {
+    opacity: 0.8;
+}
+
+/* meta box */
+.project-details-wrap {
+    border-left: 5px solid #212529 !important; /* আপনার থিমের সাথে মিল রেখে */
+}
+.project-details-wrap i {
+    opacity: 0.8;
+}
+
+/* shortcode style */
+
+.comments-area a {
+    text-decoration: none !important;
+}
+
